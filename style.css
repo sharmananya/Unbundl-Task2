@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.chocolate-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.chocolate {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.chocolate.selected {
+    background-color: rgb(79, 250, 96)
+}
+
+.custom-pack {
+    margin-top: 20px;
+}
+
+.selected-chocolates {
+    list-style-type: none;
+    padding: 0;
+}
+
+.selected-chocolates li {
+    margin-bottom: 5px;
+}
+
+#total-price {
+    font-weight: bold;
+}
